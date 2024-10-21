@@ -1,7 +1,7 @@
 # PHM Challenge 2023
 
-This Repository contains a solution for the PHM North America 2023 Conference Data Challenge. The challenge addresses the problem of estimating gearbox degradation in a gearbox operated under a variety of conditions, and emphasizes metrics of trust, robustness and explainability.
-This Solution uses a probabilistic estimation of the gearbox degradation by vibration analysis and Random Convolutional Kernel Transform implemented with sktime and scored 157 Points at the validation Data set and came in on 8th place out of 106 contestants.
+This Repository contains a solution for the PHM North America 2023 Conference Data Challenge. The challenge addresses the problem of estimating gearbox degradation in a gearbox operated under a variety of conditions.   
+The presented Solution uses a probabilistic estimation of the gearbox degradation by vibration analysis and Random Convolutional Kernel Transform implemented with sktime and scored 157 Points at the validation Data set and came in on 8th place out of 106 contestants.
 
 ## Problem description
 
@@ -24,14 +24,6 @@ https://data.phmsociety.org/phm2023-conference-data-challenge/
 ## Results
 
 ## Key Features
-- ETL Pipeline with Apache Airflow that gets the data with a WebHook and saves it in a Cassandra DB
-- Blue/Green Deployment with mirrowed Data on Managed Online Endpoint for Model testing
-- Chron Function that forecasts every x seconds, evaluates the result and dispklayes data in a Web Application
+
 
 ## TechStack
-- Apache Airflow
-- Apache Spark
-- Cassandra DB
-- PyTorch
-- Azure Managed Online Endpoint
-- Streamlit
